@@ -4,11 +4,12 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import SelectOption from "./pages/SelectOption";
 import Register from "./pages/Register";
+import TodoReducer from "./pages/TodoReducer";
 
 function App() {
   return (
     <div className="App">
-      <Register />
+      <TodoReducer />
     </div>
   );
 }
