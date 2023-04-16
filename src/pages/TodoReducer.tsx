@@ -40,7 +40,6 @@ const TodoReducer = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const { name, email, info } = state;
-  console.log("🚀 ~ file: TodoReducer.tsx:32 ~ TodoReducer ~ name:", name);
 
   const handleAddTodo = (e: any) => {
     e.preventDefault();

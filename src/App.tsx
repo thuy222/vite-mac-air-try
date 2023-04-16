@@ -5,11 +5,12 @@ import "./App.css";
 import SelectOption from "./pages/SelectOption";
 import Register from "./pages/Register";
 import TodoReducer from "./pages/TodoReducer";
+import UseStateHook from "./pages/hooks/UseStateHook";
 
 function App() {
   return (
     <div className="App">
-      <TodoReducer />
+      <UseStateHook />
     </div>
   );
 }
