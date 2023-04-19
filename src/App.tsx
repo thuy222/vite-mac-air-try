@@ -6,11 +6,12 @@ import SelectOption from "./pages/SelectOption";
 import Register from "./pages/Register";
 import TodoReducer from "./pages/TodoReducer";
 import UseStateHook from "./pages/hooks/UseStateHook";
+import RadioButton from "./pages/RadioButton";
 
 function App() {
   return (
     <div className="App">
-      <UseStateHook />
+      <RadioButton />
     </div>
   );
 }
