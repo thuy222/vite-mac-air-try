@@ -9,11 +9,12 @@ import UseStateHook from "./pages/hooks/UseStateHook";
 import RadioButton from "./pages/RadioButton";
 import FetchApi from "./pages/FetchApi";
 import { MySelect } from "./pages/ReactSelect";
+import BreakingBad from "./pages/BreakingBad";
 
 function App() {
   return (
     <div className="App">
-      <FetchApi />
+      <BreakingBad />
     </div>
   );
 }
