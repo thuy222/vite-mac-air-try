@@ -10,11 +10,12 @@ import RadioButton from "./pages/RadioButton";
 import FetchApi from "./pages/FetchApi";
 import { MySelect } from "./pages/ReactSelect";
 import BreakingBad from "./pages/BreakingBad";
+import PassCode from "./pages/PassCode";
 
 function App() {
   return (
     <div className="App">
-      <BreakingBad />
+      <PassCode />
     </div>
   );
 }

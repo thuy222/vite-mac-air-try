@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+.phone {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.number{
+  background-color: burlywood;
+}
+
+.phone .number:last-child {
+  justify-self: center;
+  grid-column-start: span 3;
+ }
